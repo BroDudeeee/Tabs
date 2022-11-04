@@ -1,13 +1,50 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  display: flex;
+  justify-content: center;
+  background-color: whitesmoke;
+  padding-bottom: 3rem;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.title {
+  text-align: center;
+  text-decoration: underline;
+  text-decoration-color: darkcyan;
+  text-underline-offset: 8px;
+  margin-bottom: 4rem;
+}
+
+.jobName h4 {
+  background-color: lightgray;
+  width: fit-content;
+  padding: 3px 8px;
+  margin-top: -1rem;
+  font-weight: 400;
+}
+
+.date {
+  font-family: "Courier New", Courier, monospace;
+  margin-top: -1rem;
+}
+
+.container {
+  display: flex;
+  width: 90vw;
+  justify-content: center;
+  margin-bottom: 1rem;
+}
+
+.name {
+  margin-right: 5rem;
+  padding-top: 2px;
+  cursor: pointer;
+  height: fit-content;
+  width: 8rem;
+}
+
+.name:hover {
+  color: darkcyan;
 }
